@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "[\n  {\n    \"name\": \"French Fries Garlic Mayo\",\n    \"price\": \"Rp 16.000\",\n    \"category\": \"Snack\"\n  },\n  {\n    \"name\": \"Garlic Bread\",\n    \"price\": \"Rp 20.000\",\n    \"category\": \"Snack\"\n  },\n  {\n    \"name\": \"Maison Ali's Platter\",\n    \"price\": \"Rp 35.000\",\n    \"category\": \"Snack\"\n  },\n  {\n    \"name\": \"Tahu Cabai Garam\",\n    \"price\": \"Rp 18.000\",\n    \"category\": \"Snack\"\n  },\n  {\n    \"name\": \"Nasi Goreng Maison Ali\",\n    \"price\": \"Rp 35.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Nasi Goreng Thai\",\n    \"price\": \"Rp 32.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Nasi Goreng Hongkong\",\n    \"price\": \"Rp 32.000\",\n    \"category\": \"Main Course\"\n  }\n]",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1779793112,
+  "id": "20260526185825bec4697285f146d5",
+  "model": "glm-4.6v",
+  "object": "chat.completion",
+  "request_id": "20260526185825bec4697285f146d5",
+  "usage": {
+    "completion_tokens": 246,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2235,
+    "prompt_tokens_details": {
+      "cached_tokens": 4
+    },
+    "total_tokens": 2481
+  }
+}

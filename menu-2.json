@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "[\n  {\n    \"name\": \"DA HONG PAO MILK TEA\",\n    \"price\": \"Rp 25.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"EARL GREY MILK TEA\",\n    \"price\": \"Rp 23.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"JADE OSMANTHUS MILK TEA\",\n    \"price\": \"Rp 23.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"LYCHEE TEA\",\n    \"price\": \"Rp 23.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"LEMON TEA\",\n    \"price\": \"Rp 20.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"HOKKAIDO MATCHA LATTE\",\n    \"price\": \"Rp 24.000\",\n    \"category\": \"Non-Coffee\"\n  },\n  {\n    \"name\": \"STRAWBERRY MATCHA LATTE\",\n    \"price\": \"Rp 28.000\",\n    \"category\": \"Non-Coffee\"\n  },\n  {\n    \"name\": \"VIRGIN MOJITO\",\n    \"price\": \"Rp 25.000\",\n    \"category\": \"Non-Coffee\"\n  },\n  {\n    \"name\": \"HONEY B LEMON\",\n    \"price\": \"Rp 25.000\",\n    \"category\": \"Non-Coffee\"\n  },\n  {\n    \"name\": \"PINK BERRY FIZZ\",\n    \"price\": \"Rp 25.000\",\n    \"category\": \"Non-Coffee\"\n  },\n  {\n    \"name\": \"AZURE BLUE ROYALE\",\n    \"price\": \"Rp 28.000\",\n    \"category\": \"Non-Coffee\"\n  },\n  {\n    \"name\": \"JAVA CHIP SHAKE\",\n    \"price\": \"Rp 28.000\",\n    \"category\": \"Snack\"\n  },\n  {\n    \"name\": \"COOKIES N CREAM\",\n    \"price\": \"Rp 28.000\",\n    \"category\": \"Snack\"\n  },\n  {\n    \"name\": \"R.E.D VELVET SHAKE\",\n    \"price\": \"Rp 26.000\",\n    \"category\": \"Snack\"\n  }\n]",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1779793092,
+  "id": "202605261858038b9ba885c2414951",
+  "model": "glm-4.6v",
+  "object": "chat.completion",
+  "request_id": "202605261858038b9ba885c2414951",
+  "usage": {
+    "completion_tokens": 508,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2235,
+    "prompt_tokens_details": {
+      "cached_tokens": 4
+    },
+    "total_tokens": 2743
+  }
+}

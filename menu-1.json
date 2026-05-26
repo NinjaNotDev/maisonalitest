@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "[\n  {\n    \"name\": \"Espresso\",\n    \"price\": \"Rp 12.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Long Black\",\n    \"price\": \"Rp 22.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Flat White\",\n    \"price\": \"Rp 24.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Cold Brew\",\n    \"price\": \"Rp 30.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Cappucino\",\n    \"price\": \"Rp 26.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Mocha\",\n    \"price\": \"Rp 26.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Barista's Breakfast\",\n    \"price\": \"Rp 26.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Kopi Susu Van Java\",\n    \"price\": \"Rp 25.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Double Cookies Rum Arabica\",\n    \"price\": \"Rp 29.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Nutty Crema Butterscotch\",\n    \"price\": \"Rp 29.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Pistachio Cafe Latte\",\n    \"price\": \"Rp 25.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Melb. Mont Blanc\",\n    \"price\": \"Rp 25.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Osaka Berry Mont Blanc\",\n    \"price\": \"Rp 26.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Manuka Arome Americano\",\n    \"price\": \"Rp 23.000\",\n    \"category\": \"Coffee\"\n  },\n  {\n    \"name\": \"Mixed Berries Americano\",\n    \"price\": \"Rp 25.000\",\n    \"category\": \"Coffee\"\n  }\n]",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1779793082,
+  "id": "20260526185750d3061c26d4d2426c",
+  "model": "glm-4.6v",
+  "object": "chat.completion",
+  "request_id": "20260526185750d3061c26d4d2426c",
+  "usage": {
+    "completion_tokens": 490,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2235,
+    "prompt_tokens_details": {
+      "cached_tokens": 4
+    },
+    "total_tokens": 2725
+  }
+}

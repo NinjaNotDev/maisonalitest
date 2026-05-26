@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "[\n  {\n    \"name\": \"Salted Egg Chicken Rice\",\n    \"price\": \"Rp 39.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Thai Basil Chicken Rice\",\n    \"price\": \"Rp 27.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Nanban Chicken/Prawn Rice\",\n    \"price\": \"Rp 28.000/Rp 32.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Honey Butter Chicken Rice\",\n    \"price\": \"Rp 28.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Dory Sambal Matah Rice\",\n    \"price\": \"Rp 33.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Penne N Brulee\",\n    \"price\": \"Rp 35.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Tuna Aglio Olio\",\n    \"price\": \"Rp 35.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Penne ala Rosé\",\n    \"price\": \"Rp 28.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Fettucine al Funghi\",\n    \"price\": \"Rp 37.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Fish N Chips\",\n    \"price\": \"Rp 34.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Chicken Parmigiana\",\n    \"price\": \"Rp 36.000\",\n    \"category\": \"Main Course\"\n  },\n  {\n    \"name\": \"Shortplate Stroganoff\",\n    \"price\": \"Rp 39.000\",\n    \"category\": \"Main Course\"\n  }\n]",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1779793105,
+  "id": "20260526185813a4097866d1e443b8",
+  "model": "glm-4.6v",
+  "object": "chat.completion",
+  "request_id": "20260526185813a4097866d1e443b8",
+  "usage": {
+    "completion_tokens": 425,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2235,
+    "prompt_tokens_details": {
+      "cached_tokens": 4
+    },
+    "total_tokens": 2660
+  }
+}
