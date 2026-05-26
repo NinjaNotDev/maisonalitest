@@ -1,0 +1,257 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-warm-50: #fdf8f0;
+  --color-warm-100: #f5e6d0;
+  --color-warm-200: #e8cba0;
+  --color-warm-300: #d4a96e;
+  --color-warm-400: #c28b42;
+  --color-warm-500: #a87232;
+  --color-warm-600: #8b5a28;
+  --color-warm-700: #6d4420;
+  --color-warm-800: #4a2e15;
+  --color-warm-900: #2d1b0d;
+  --color-cream: #faf6f1;
+  --color-espresso: #3c2415;
+  --color-mocha: #6b4226;
+  --color-caramel: #c4915c;
+  --color-latte: #e8d5bf;
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: #faf6f1;
+  --foreground: #2d1b0d;
+  --card: #ffffff;
+  --card-foreground: #2d1b0d;
+  --popover: #ffffff;
+  --popover-foreground: #2d1b0d;
+  --primary: #6b4226;
+  --primary-foreground: #faf6f1;
+  --secondary: #f5e6d0;
+  --secondary-foreground: #4a2e15;
+  --muted: #f5e6d0;
+  --muted-foreground: #8b7355;
+  --accent: #e8cba0;
+  --accent-foreground: #4a2e15;
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: #e8d5bf;
+  --input: #e8d5bf;
+  --ring: #c4915c;
+  --chart-1: #6b4226;
+  --chart-2: #c4915c;
+  --chart-3: #8b5a28;
+  --chart-4: #d4a96e;
+  --chart-5: #a87232;
+  --sidebar: #fdf8f0;
+  --sidebar-foreground: #2d1b0d;
+  --sidebar-primary: #6b4226;
+  --sidebar-primary-foreground: #faf6f1;
+  --sidebar-accent: #f5e6d0;
+  --sidebar-accent-foreground: #4a2e15;
+  --sidebar-border: #e8d5bf;
+  --sidebar-ring: #c4915c;
+}
+
+.dark {
+  --background: #1a1008;
+  --foreground: #f5e6d0;
+  --card: #2d1b0d;
+  --card-foreground: #f5e6d0;
+  --popover: #2d1b0d;
+  --popover-foreground: #f5e6d0;
+  --primary: #d4a96e;
+  --primary-foreground: #2d1b0d;
+  --secondary: #3c2415;
+  --secondary-foreground: #f5e6d0;
+  --muted: #3c2415;
+  --muted-foreground: #a87232;
+  --accent: #4a2e15;
+  --accent-foreground: #f5e6d0;
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: #4a2e15;
+  --input: #4a2e15;
+  --ring: #c4915c;
+  --chart-1: #d4a96e;
+  --chart-2: #c4915c;
+  --chart-3: #e8cba0;
+  --chart-4: #8b5a28;
+  --chart-5: #a87232;
+  --sidebar: #1a1008;
+  --sidebar-foreground: #f5e6d0;
+  --sidebar-primary: #d4a96e;
+  --sidebar-primary-foreground: #2d1b0d;
+  --sidebar-accent: #3c2415;
+  --sidebar-accent-foreground: #f5e6d0;
+  --sidebar-border: #4a2e15;
+  --sidebar-ring: #c4915c;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-caramel);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-mocha);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero section overlay gradient */
+.hero-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(45, 27, 13, 0.3) 0%,
+    rgba(45, 27, 13, 0.6) 50%,
+    rgba(45, 27, 13, 0.85) 100%
+  );
+}
+
+/* Text shadow for hero */
+.hero-text-shadow {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Decorative divider */
+.cafe-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cafe-divider::before,
+.cafe-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-caramel),
+    transparent
+  );
+}
+
+/* Parallax-like subtle effect on images */
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.6s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.05);
+}
+
+/* Menu card hover effect */
+.menu-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(107, 66, 38, 0.15);
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Fade in up animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Section padding */
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
